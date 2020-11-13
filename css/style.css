@@ -1,0 +1,39 @@
+.ring{
+	background-color: #ccc;
+	height: 200px;
+	width: 100%;
+}
+.road1{
+	background-color: #846060;
+	height: 100px;
+	width: 100%;
+}
+.road2{
+	background-color: #846060;
+	height: 100px;
+	width: 100%;
+}
+img{
+	height: 64px;
+	width:64px;
+	margin-top: 30px;
+}
+@keyframes firstCar {
+  from {left: 0px;}
+  to {left: 100%;}
+}
+@keyframes secondCar {
+  from {left: 0px;}
+  to {left: 100%;}
+}
+#car1{
+	  position: relative;
+
+	animation: firstCar 8s linear infinite;
+}
+#car2{
+	  position: relative;
+
+	animation: secondCar 7s linear infinite;
+	animation-delay: 1s;
+}
